@@ -1,5 +1,6 @@
 *{
     box-sizing: border-box;
+    
 }
 
 body {
@@ -36,11 +37,20 @@ h6 {
     font-weight: bold;
 }
 
-#header{
-    height: 170px;
+
+header, footer,section{
+    border: 1px solid black;
 }
 
-#header .header__top{
+.wrapper{
     display: grid;
-  
+    grid-template-columns: 1fr 1fr;
 }
+
+#header, #footer{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+
+
