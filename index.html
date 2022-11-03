@@ -12,7 +12,8 @@
 
     <!-- INCLUDE CSS -->
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
 
 
 
@@ -22,341 +23,532 @@
 </head>
 
 <body>
-         <header id="header">
-            <div class="header__top">
-                <div class="container">
-                    <div class="header__top__logo">
-                        <h1>Блог Programulka</h1>
-                    </div>
-                    <nav class="header__top__menu">
-                        <ul>
-                            <li><a href="/">Головна</a></li>
-                            <li><a href="#">Про мене</a></li>
-                            <li><a href="#">Instagram</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-            <div class="header__bottom">
-                <div class="container">
-                    <nav>
-                        <ul>
-                            <li><a href="#">Безпека</a></li>
-                            <li><a href="#">Програмування</a></li>
-                            <li><a href="#">Lifestyle</a></li>
-                            <li><a href="#">Музика</a></li>
-                            <li><a href="#">Саморозвиток</a></li>
-                            <li><a href="#">Спорт</a></li>
-                            <li><a href="#">Їжа</a></li>
-                        </ul>
-                    </nav>
-                </div>
-            </div>
-
-        </header>
-
-<!--
-        <section class="content__left">
-            <div class="block new_text">
-                <a href="#">Всі пости</a>
-                <h3>Нові пости в блозі</h3>
-                <div class="block__content">
-                    <div class="articles articles__horizontal  new_post">
-
-
-                        <article class="article">
-                            <div class="article__image" style="background-image: url('./img/black-photo.jpg');"></div>
-                            <div class="article__info">
-                                <a href="#">Розробка на Node.JS</a>
-                                <div class="article__info__meta">
-                                    <small>Категория: <a href="#">Програмування</a></small>
-
-                                </div>
-                                <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Molestias ipsum tenetur neque inventore maxime culpa possimus rem perferendis
-                                    temporibus
-                                    ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.</div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block new_text">
-                <a href="#">Всі пости</a>
-                <h3>Нові пости в блозі</h3>
-                <div class="block__content">
-                    <div class="articles articles__horizontal  new_post">
-
-
-                        <article class="article">
-                            <div class="article__image" style="background-image: url('./img/black-photo.jpg');"></div>
-                            <div class="article__info">
-                                <a href="#">Розробка на Node.JS</a>
-                                <div class="article__info__meta">
-                                    <small>Категория: <a href="#">Програмування</a></small>
-
-                                </div>
-                                <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Molestias ipsum tenetur neque inventore maxime culpa possimus rem perferendis
-                                    temporibus
-                                    ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.</div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block new_text">
-                <a href="#">Всі пости</a>
-                <h3>Нові пости в блозі</h3>
-                <div class="block__content">
-                    <div class="articles articles__horizontal  new_post">
-
-
-                        <article class="article">
-                            <div class="article__image" style="background-image: url('./img/black-photo.jpg');"></div>
-                            <div class="article__info">
-                                <a href="#">Розробка на Node.JS</a>
-                                <div class="article__info__meta">
-                                    <small>Категория: <a href="#">Програмування</a></small>
-
-                                </div>
-                                <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Molestias ipsum tenetur neque inventore maxime culpa possimus rem perferendis
-                                    temporibus
-                                    ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.</div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block new_text">
-                <a href="#">Всі пости</a>
-                <h3>Нові пости в блозі</h3>
-                <div class="block__content">
-                    <div class="articles articles__horizontal  new_post">
-
-
-                        <article class="article">
-                            <div class="article__image" style="background-image: url('./img/black-photo.jpg');"></div>
-                            <div class="article__info">
-                                <a href="#">Розробка на Node.JS</a>
-                                <div class="article__info__meta">
-                                    <small>Категория: <a href="#">Програмування</a></small>
-
-                                </div>
-                                <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Molestias ipsum tenetur neque inventore maxime culpa possimus rem perferendis
-                                    temporibus
-                                    ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.</div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block new_text">
-                <a href="#">Всі пости</a>
-                <h3>Нові пости в блозі</h3>
-                <div class="block__content">
-                    <div class="articles articles__horizontal  new_post">
-
-
-                        <article class="article">
-                            <div class="article__image" style="background-image: url('./img/black-photo.jpg');"></div>
-                            <div class="article__info">
-                                <a href="#">Розробка на Node.JS</a>
-                                <div class="article__info__meta">
-                                    <small>Категория: <a href="#">Програмування</a></small>
-
-                                </div>
-                                <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Molestias ipsum tenetur neque inventore maxime culpa possimus rem perferendis
-                                    temporibus
-                                    ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.</div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-            <div class="block new_text">
-                <a href="#">Всі пости</a>
-                <h3>Нові пости в блозі</h3>
-                <div class="block__content">
-                    <div class="articles articles__horizontal  new_post">
-
-
-                        <article class="article">
-                            <div class="article__image" style="background-image: url('./img/black-photo.jpg');"></div>
-                            <div class="article__info">
-                                <a href="#">Розробка на Node.JS</a>
-                                <div class="article__info__meta">
-                                    <small>Категория: <a href="#">Програмування</a></small>
-
-                                </div>
-                                <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing
-                                    elit.
-                                    Molestias ipsum tenetur neque inventore maxime culpa possimus rem perferendis
-                                    temporibus
-                                    ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.</div>
-                            </div>
-                        </article>
-                    </div>
-                </div>
-            </div>
-
-        </section>
-
-        <section class="content__right">
-            <div class="block">
-                <h3>Ми знаємо</h3>
-                <div class="block__content">
-                    <script type="text/javascript"
-                        src="//ra.revolvermaps.com/0/0/6.js?i=02op3nb0crr&amp;m=7&amp;s=320&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80"
-                        async="async"></script>
-                </div>
-            </div>
-
-            <div class="block">
-                <h3>Топ прочитаних статей</h3>
-                <div class="block__content">
-                    <div class="articles articles__vertical">
-                        <article class="article">
-                            <div class="article__image" style="background-image: url('./img/black-photo.jpg');"></div>
-
-                            <div class="article__info">
-                                <a href="#">Розробка на Node.js</a>
-                                <div class="article__info__meta">
-                                    <small>Категория: <a href="#">Програмування</a></small>
-                                </div>
-                                <div class="article__info__preview">Lorem ipsum dolor, sit amet consectetur adipisicing.</div>
-                            </div>
-                        </article>
-
-                        <article class="article">
-                            <div class="article__image" style="background-image: url('./img/black-photo.jpg');"></div>
-
-                            <div class="article__info">
-                                <a href="#">Розробка на Node.js</a>
-                                <div class="article__info__meta">
-                                    <small>Категория: <a href="#">Програмування</a></small>
-                                </div>
-                                <div class="article__info__preview">Lorem ipsum dolor, sit amet consectetur adipisicing.</div>
-                            </div>
-                        </article>
-
-                        <article class="article">
-                            <div class="article__image" style="background-image: url('./img/black-photo.jpg');"></div>
-
-                            <div class="article__info">
-                                <a href="#">Розробка на Node.js</a>
-                                <div class="article__info__meta">
-                                    <small>Категория: <a href="#">Програмування</a></small>
-                                </div>
-                                <div class="article__info__preview">Lorem ipsum dolor, sit amet consectetur adipisicing.</div>
-                            </div>
-                        </article>
-                    </div>
-
-                    <div class="block">
-                        <h3>Комаентарі</h3>
-                        <div class="block__content">
-                            <div class="articles articles__vertical comment_block">
-                                <article class="article">
-                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
-                                    </div>
-
-                                    <div class="article__info">
-                                        <a href="#">Johnny Flame</a>
-
-                                        <div class="article__info__meta">
-                                            <small>Назва статті:<a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt.</a></small>
-
-                                        </div>
-                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laborum.
-                                        </div>
-                                    </div>
-                                </article>
-
-                                <article class="article">
-                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
-                                    </div>
-
-                                    <div class="article__info">
-                                        <a href="#">Johnny Flame</a>
-
-                                        <div class="article__info__meta">
-                                            <small>Назва статті:<a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt.</a></small>
-
-                                        </div>
-                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laborum.
-                                        </div>
-                                    </div>
-                                </article>
-
-                                <article class="article">
-                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
-                                    </div>
-
-                                    <div class="article__info">
-                                        <a href="#">Johnny Flame</a>
-
-                                        <div class="article__info__meta">
-                                            <small>Назва статті:<a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt.</a></small>
-
-                                        </div>
-                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laborum.
-                                        </div>
-                                    </div>
-                                </article>
-
-                                <article class="article">
-                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
-                                    </div>
-
-                                    <div class="article__info">
-                                        <a href="#">Johnny Flame</a>
-
-                                        <div class="article__info__meta">
-                                            <small>Назва статті:<a href="#">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt.</a></small>
-
-                                        </div>
-                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo, laborum.
-                                        </div>
-                                    </div>
-                                </article>
-
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <footer id="footer">
+    <header id="header">
+        <div class="header__top">
             <div class="container">
-                <div class="footer__logo">
-                    <h1>Блог IT_Мінімаліста</h1>
+                <div class="header__top__logo">
+                    <h1>Блог Programulka</h1>
                 </div>
-                <nav class="footer__menu">
+                <nav class="header__top__menu">
                     <ul>
-                        <li><a href="#">Головна</a></li>
+                        <li><a href="/">Головна</a></li>
                         <li><a href="#">Про мене</a></li>
                         <li><a href="#">Instagram</a></li>
-                        <li><a href="#">Правовласникам</a></li>
                     </ul>
                 </nav>
             </div>
-        </footer> -->
+        </div>
+        <div class="header__bottom">
+            <div class="container">
+                <nav>
+                    <ul>
+                        <li><a href="#">Безпека</a></li>
+                        <li><a href="#">Програмування</a></li>
+                        <li><a href="#">Lifestyle</a></li>
+                        <li><a href="#">Музика</a></li>
+                        <li><a href="#">Саморозвиток</a></li>
+                        <li><a href="#">Спорт</a></li>
+                        <li><a href="#">Їжа</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </header>
+
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <section class="content__left col-md-8">
+                    <div class="block new_text">
+                        <a href="#">Всі пости</a>
+                        <h3>Нові пости в блозі</h3>
+                        <div class="block__content">
+                            <div class="articles articles__horizontal  new_post">
+
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <a href="#">Всі пости</a>
+                        <h3>Безпека</h3>
+                        <div class="block__content">
+                            <div class="articles articles__horizontal  new_post">
+
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <a href="#">Всі пости</a>
+                        <h3>Програмування</h3>
+                        <div class="block__content">
+                            <div class="articles articles__horizontal  new_post">
+
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Програмування</a></small>
+
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur
+                                            adipisicing
+                                            elit.
+                                            Molestias ipsum tenetur neque inventore maxime culpa possimus rem
+                                            perferendis
+                                            temporibus
+                                            ullam fugiat, odit, aperiam officia. Quae deserunt nulla atque minus ea.
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </section>
+
+                <section class="content__right col-md-4">
+                    <div class="block">
+                        <h3>Ми знаємо</h3>
+                        <div class="block__content">
+                            <script type="text/javascript"
+                                src="//ra.revolvermaps.com/0/0/6.js?i=02op3nb0crr&amp;m=7&amp;s=320&amp;c=e63100&amp;cr1=ffffff&amp;f=arial&amp;l=0&amp;bv=90&amp;lx=-420&amp;ly=420&amp;hi=20&amp;he=7&amp;hc=a8ddff&amp;rs=80"
+                                async="async"></script>
+                        </div>
+                    </div>
+
+                    <div class="block">
+                        <h3>Топ прочитаних статей</h3>
+                        <div class="block__content">
+                            <div class="articles articles__vertical">
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Музика</a></small>
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Музика</a></small>
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Музика</a></small>
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+
+                                    <div class="article__info">
+                                        <a href="#">Розробка на Node.JS</a>
+                                        <div class="article__info__meta">
+                                            <small>Категорія: <a href="#">Музика</a></small>
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur.
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="block">
+                        <h3>Коментарі</h3>
+                        <div class="block__content">
+                            <div class="articles articles__vertical">
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+
+                                    <div class="article__info">
+                                        <a href="#">Johnny Flame</a>
+                                        <div class="article__info__meta">
+                                            <small>Назва статі: <a href="#">Музика</a></small>
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+
+                                    <div class="article__info">
+                                        <a href="#">Johnny Flame</a>
+                                        <div class="article__info__meta">
+                                            <small>Назва статі: <a href="#">Музика</a></small>
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+
+                                    <div class="article__info">
+                                        <a href="#">Johnny Flame</a>
+                                        <div class="article__info__meta">
+                                            <small>Назва статі: <a href="#">Музика</a></small>
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur.
+                                        </div>
+                                    </div>
+                                </article>
+
+                                <article class="article">
+                                    <div class="article__image" style="background-image: url('./img/black-photo.jpg');">
+                                    </div>
+
+                                    <div class="article__info">
+                                        <a href="#">Johnny Flame</a>
+                                        <div class="article__info__meta">
+                                            <small>Назва статі: <a href="#">Музика</a></small>
+                                        </div>
+                                        <div class="article__info__preview">Lorem ipsum dolor sit amet consectetur.
+                                        </div>
+                                    </div>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+
+
+    <footer id="footer">
+        <div class="container">
+            <div class="footer__logo">
+                <h1>Блог IT_Мінімаліста</h1>
+            </div>
+            <nav class="footer__menu">
+                <ul>
+                    <li><a href="#">Головна</a></li>
+                    <li><a href="#">Про мене</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Правовласникам</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
 
     </div>
 </body>
