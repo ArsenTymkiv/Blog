@@ -92,7 +92,7 @@ h6 {
     background-position: 0% 80%;
     background-repeat: no-repeat;
     background-size: 0% 2px;
-    transition: background-size .3s;
+    transition: background-size 0.3s ease;
 }
 
 
@@ -113,8 +113,16 @@ h6 {
     float: right;
     font-size: 20px;
     color: black;
-    text-decoration: none;
+    
     font-weight: 300;
+}
+
+.block a{
+    text-decoration: none;
+}
+
+.block a:hover{
+    text-decoration: underline;
 }
 
 .block .block__content {
@@ -155,12 +163,8 @@ h6 {
     color: black;
     font-size: 18px;
     font-weight: normal;
-    text-decoration: none;
 }
 
-.articles .article .article__info>a:hover{
-    text-decoration: underline;
-}
 
 .articles .article .article__info>.article__info__meta {
     font-size: 14px;
@@ -171,12 +175,8 @@ h6 {
 
 .articles .article .article__info>.article__info__meta a {
     color: black;
-    text-decoration: none;
 }
 
-.articles .article .article__info>.article__info__meta a:hover{
-    text-decoration: underline;
-}
 
 .articles .article .article__info>.article__info__preview {
     font-size: 16px;
